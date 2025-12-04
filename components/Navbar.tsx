@@ -10,12 +10,13 @@ const Navbar = () => {
                 <Image src='/icons/logo.png' alt="logo" width={24} height={24}></Image>
                 <p className="text-xl font-bold italic max-sm:hidden">DevEvents</p>
                 </Link>
-            </nav>
+            
             <ul className="flex flex-row items-center gap-6"> 
                 <Link href="/">Home</Link>
                 <Link href="/">Event</Link>
                 <Link href="/">Create Event</Link>
             </ul>
+            </nav>
         </header>
      );
 }
